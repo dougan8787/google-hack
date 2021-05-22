@@ -1,0 +1,16 @@
+ASUSTOR	         intitle:TruvianNas "保持登入狀態" | "Stay signed in"
+	         intitle:<型號> "保持登入狀態" | "Stay signed in"
+
+QNAP	inurl:"cgi-bin/login.html " secure.login | "安全登入"
+	intitle:"Welcome  to  QNAP" secure.login | "安全登入"
+	intitle:TTS secure.login | "安全登入"
+
+SYNOLOGY      intitle:synology.diskstation Remember.me
+	         intitle:synology.diskstation inurl:"webman/index.cgi"
+	         intitle:<型號>  inurl:"webman/index.cgi"
+
+THECUS            intitle:<型號> username password
+	        admin.id password intitle:<型號>
+
+WD                    intitle:UI my.cloud password "Please enter you"
+                          intitle:"wd my cloud" password  user

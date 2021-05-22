@@ -1,0 +1,43 @@
+ext:ini -sample -example -cvs "ws_ftp" site:com.tw
+
+ext:csv ("身分證"|"電子郵件"|"通訊錄"|"帳號"|PASSWORD|PASSWD|EMAIL|PHONE) site:edu.tw
+
+ext:log inurl:" log | logs" inurl:"ws_ftp" site:edu.tw
+
+(inurl:admin | inurl:manage | inurl:config) (inurl: login | inurl:login | inurl:portal) site:edu.tw
+
+inurl:"admin | manage | config " inurl:" login | login | portal " site:edu.tw
+
+inurl:login.aspx "ASP.NET_SessionId"
+
+intitle:weblogic.Server intitle:console.Login inurl:console
+
+inurl:webvpn.html login "Please.enter.your"
+
+inurl:"wps/portal/" inurl:login
+
+inurl:"names.nsf?opendatabase"
+
+inurl:webadmin ext:nsf
+
+inurl:"exchange/login.asp"
+
+intitle:"Microsoft Outlook Web Access" intitle:Login
+
+intitle:"phpPgAdmin-Login"
+
+"VNC Desktop" inurl:5800
+
+intitle:"VNC viewer for Java"
+
+intitle:"Login to @Mail"(ext:pl|inurl:index)
+
+intitle:"XMail Web Administration Interface"intext:Login intext:password
+
+intitle:"Outlook.Web.access""outlook.web.access""domain\user.name"
+
+intitle:"Outlook.Web.access" inurl:owa
+
+intitle:WebAdmin intitle:"log.in"
+
+intitle:Web.client password

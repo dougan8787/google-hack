@@ -1,0 +1,20 @@
+³q¥Î«¬		allinurl:admin mdb
+		inurl:backup ext:mdb
+		inurl:"admin/login.asp"
+
+Oracle Enterprise Manager	"Oracle Enterprise Manager Login" password
+
+oracle http server		intitle:"oracle http server index"
+
+oracle loginportal		inurl:"pls/admin_/gateway.htm"
+
+postgreSQL   		intitle:"phpPgAdmin - Login"
+
+phpMyAdmin		inurl:main.php phpMyAdmin
+			inurl:main.php "Welcome to phpMyAdmin"
+			intitle:phpMyAdmin Welcome.to.phpMyAdmin
+			intitle:"index of /phpmyadmin" modified
+
+SQLiteManager		intext:SQLiteManager inurl:"main.php"
+
+Web Data Administratorintitle	"Web Data Administrator" intitle:Login

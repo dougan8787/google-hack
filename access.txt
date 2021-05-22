@@ -1,0 +1,53 @@
+.NET連線字串	"ASP.NET_Sessionld" "data source=" ext:aspx -forums
+
+Access	inurl:user.mdb ext:mdb
+	inurl:email ext:mdb
+	inurl:backup ext:mdb
+	inurl:profiles ext:mdb
+	"Server MapPath" "*.mdb" (ext:asp | ext:aspx)
+	allintext:dbq "server mappath" "server createobject"
+	admin ext:ldb
+	ext:accdb| ext:mdb
+
+Access連線字串	"provider=micrpsoft.jet.oledb" "source=*mdb" ext:asp
+
+ASP+MS SQL	"Microsoft OLE DB Provider for ODBC" "Driver 錯誤"
+		"ODBC SQL Server Driver" "[SQL Server]" "無法開啟登入者"
+		"ODBC SQL Server Driver" "[SQL Server]" "login failed for user"
+		"[SQL Server Driver][SQL Server]Line" "Incorrect syntax near"(ext:asp | ext:php)
+
+ASP+ODBC	OBDC.SQL ext:asp
+
+MS SQL		"Incorrect syntax near the" "ODBC SQL Server Driver"
+		"Unclosed quotation mark before the character string"
+		"ODBC SQL Server Driver"
+		
+My SQL執行錯誤	"Warning:mysql_connect():Access denied for user: '*@*"
+		"on line" -help -forum
+
+MySQL		intitle:"index of" intext:connect.inc
+		intitle:index.of mysql.conf | mysql_config
+
+MySql globals.ini	intitle:index.of intext:globals.inc
+
+MySQL my.cnf	ext:cnf my.cnf -cvs -example
+
+PHP		inurl:php.ini ext:ini
+		"The script whose uid is" "is not allowed to access"
+
+PHP database connect string	ext:inc dbconn
+
+PHP MySQL Connect file	ext:inc intext:mysql_connect
+
+PHP組態檔	intitle:"index of" config.php
+
+PHP+My SQL	"access denied for user" "using password" ext:php
+		"MySQL error with query" ext:php
+		"supplied argument is not a valid MySQL result resource" ext:php
+		"mySQL error with query" ext:php
+		"Can't connect to local" intitle:warning ext:php
+		"You have an error in your SQL syntax near" ext:php
+		"Supplied argument is not a valid MySQL result resource"
+
+Tomcat		intitle:"Apache Tomcat" "Error.Report"
+

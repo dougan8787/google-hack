@@ -1,0 +1,11 @@
+IIS5/6	intitle:"Welcome to Windows" intitle:"Internet Services"
+
+IIS7	intitle:IIS7 inurl:iisstart.htm
+
+IIS8	intitle:"Microsoft Internet Information 8 "
+
+IIS8.5	intitle:"IIS Windows Server"
+
+Apache	intitle:"Apache HTTP Server" intitle:documentation
+
+Tomcat	administration tomcat.successfully intitle:Apache.Tomcat

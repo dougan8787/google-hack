@@ -1,0 +1,39 @@
+通用	inurl:"cgi-bin"  password(user.name | account)
+	intitle:router(inurl:home | inurl:login)
+
+ASUS	intitle:ASUS.Login(SIGN.IN | ASUS.router)
+	intitle:"ASUS Wireless Router" "setup" "Advanced.Settings"
+
+BUFFALO	inurl:"cgi-bin/cgi" login
+	intitle:settings inurl:login
+
+D-Link	intitle:"D-LINK CORPORATION" Hardware.version password -site:dlink.com
+	intitle:"D-LINK Systems Inc" "硬體版本" "密碼" -site:dlink.com
+	intitle:"D-LINK VoIP Router" Welcome
+
+HUAWEI	intitle:Login "your username and password" <型號>
+	intitle:"wireless gateway login" "Welcome.Login"
+	intitle:login"hwawei home gateway"
+
+linksys	intitle:"linksys login" | intitle:router
+
+NETGEAR intitle:"netgear router" inurl:start.htm
+
+NETis	netis password inurl:login
+	intitle:"netis adsl modem" intext:password
+
+Prolink	intitle:"prolink adsl" "adsl router login"
+
+SAPIDO	inurl:"login | home" intitle:SAPIDO password router
+	intitle:login inurl:admin password router
+
+TOTOLINK intitle:totolink inurl:login/login.cgi
+	  intitle:totolink inurl:login/login.htm
+
+TP-LINK	 intitle:<型號> password login
+	例:intitle:tl.wdr4300 password login
+
+ZyXEL	intitle:"Welcome to the Web-based" username password -site:zyxel.com
+	intitle:"Web Configurator" zyxel
+	intitle:"ZyXEL Prestige Router" "Enter password"
+	intext:"Welcome to"<型號>password

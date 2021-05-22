@@ -1,0 +1,17 @@
+Apache	intitle:"Apache.Tomcat" "Error Report"
+	"Internal.Server.Error" "server at"
+
+IIS6/IIS7	"Internal server error" "IIS Web Core"
+
+IIS-ASP	"Microsoft.	VBScript" "°õ¦æ¶¥¬q¿ù»~"
+	"Microsoft.VBScript" "Runtime.Error"
+
+IIS-ASP.NET	"Server.Error.in" "NET.Framework"
+		"Server.Error.in" "ASP.NET"
+
+IIS-ASP-SQL	"Microsoft.OLE.DB.Provider.for"
+		"ODBC.SQL.Server.Driver"
+
+PHP	"website cannot" intitle:"HTTP 500 Internal Server"
+	"Server.Error.in" "ASP.NET" site:com.tw
+	"ODBC.SQL.Server.Driver" site:edu.tw

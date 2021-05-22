@@ -1,0 +1,93 @@
+intitle:AXIS intitle:Network.Camera "Live web imaging unleashed"
+
+intitle:Kamerastatus inurl:"control/camerainfo" MOBOTIX
+
+allintitle:"toshiba.network.camera" "user.login"
+
+allintitle:Live.View axis Network Camera
+
+intitle:"INTELLINET IP Camera Homepage"
+
+intitle: "axis*" intitle:"video server" - inurl:axis.com -inurl:axiscom
+
+intitle:"D.Link.Corporation" -site:dlink.com  intitle:"WIRELESS.INTERNET.CAMERA" "live.video"
+
+intitle:"EvoCam" inurl:"webcam.htm;"
+
+intitle:"Live view" inurl:"/view/view.shtml?videos="
+
+intitle:"Network Camera" inurl:dyndns
+
+intitle:"Sony Network Camera" intitle:"snc-cs11" -download -manual 	http://www.sony.net/
+
+intitle:Camera inurl:CgiStart -inurl:cgistart.com
+
+intitle:flexwatch  intext:"Copyright by Seyeon TECO Co"
+
+intitle:flexwatch intext:"Home page ver"
+
+intitle:live intext:"MOBOTIX" intext:"Open Menu"
+
+intitle:liveapplet inurl:LvAppl
+
+intitle:MOBOTIX intitle:PDAS
+
+intitle:MOBOTIX intitle:Seiten
+
+intitle:Panasonic inurl:portal_main.html
+
+intitle:toshiba inurl:user_single_view.htm
+
+intitle:Toshiba Network Camera" user.Start
+
+inurl:"axis-cgi/jpg" ext:cgi
+
+inurl:"axis-cgi/motion/motiondata.cgi"
+
+inurl:"view/indexFrame.shtml"
+
+inurl:"viewerframe?mode=" Network.camera
+
+inurl:/Aview.htm -inurl
+
+inurl:/cam_portal.cgi
+
+inurl:/img/vr.htm
+
+inurl:/user/cgi-bin/view_M_t1.thtml
+
+inurl:/user/cgi-bin/view_S_t_uF.thtml
+
+inurl:/user_view_M.htm
+
+inurl:/user_view_S.htm
+
+inurl:/view/viewer_index.shtml
+
+inurl:axis-cgi/mjpg/video.swf
+
+inurl:camctrl.cgi
+
+inurl:Camera.aspx
+
+inurl:Camera.aspx?ServerID
+
+inurl:camstreams.com Live
+
+inurl:control/userimage.html  MOBOTIX
+
+inurl:dyndns.org Axis | Mobotix
+
+inurl:"home/homeJ.html" Home Frame.rate
+
+inurl:"home/homeS.html" Home Frame.rate
+
+inurl:indexFrame.shtme Axis
+
+inurl:main.cgi camera linksys
+
+inurl:toolam.html intext:home intext:Admin
+
+site:miemasu.net -site:www.miemasu.net
+
+site:viewnetcam.com -site:www.viewnetcam.com
